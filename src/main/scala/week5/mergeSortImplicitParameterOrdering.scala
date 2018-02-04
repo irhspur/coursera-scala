@@ -1,8 +1,8 @@
-//package week5
+package week5
 
 import math.Ordering
 
-object mergeSort {
+object mergeSortImplicitParameterOrdering {
 	
 	def main(args: Array[String]) = {
 		val nums = List(2, -4, 5, 7, 1)

@@ -1,6 +1,6 @@
-//package week5
+package week5
 
-object mergeSort {
+object mergeSortImplicitParameter {
 	
 	def main(args: Array[String]) = {
 		val nums = List(2, -4, 5, 7, 1)
