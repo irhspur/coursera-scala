@@ -1,4 +1,4 @@
-package week5
+package course1.week5
 
 object Greeting {
 	def main(args: Array[String]) = println("Hello World!")

@@ -1,4 +1,4 @@
-import week3._
+import course1.week3._
 
 object polymorphism {
 

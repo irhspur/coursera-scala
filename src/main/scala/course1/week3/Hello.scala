@@ -1,4 +1,4 @@
-package week3
+package course1.week3
 
 /**
   * Created by irhspur on 1/19/18.

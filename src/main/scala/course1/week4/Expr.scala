@@ -1,4 +1,4 @@
-package week4
+package course1.week4
 
 trait Expr
 case class Number(n: Int) extends Expr
