@@ -42,4 +42,6 @@ object books {
       if a1 == a2
     } yield a1
 
+  books flatMap ( b =>
+    b.authors withFilter(a => a startsWith "Bird") map (y => y))
 }

@@ -15,6 +15,10 @@ libraryDependencies += "org.scala-lang.modules" %% "scala-parser-combinators" % 
 libraryDependencies += "org.scalactic" %% "scalactic" % "3.0.4"
 libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.4" % "test"
 
+// https://mvnrepository.com/artifact/com.storm-enroute/scalameter-core
+libraryDependencies += "com.storm-enroute" %% "scalameter-core" % "0.9"
+
+
 //// include the common dir
 //commonSourcePackages += "common"
 //

@@ -28,5 +28,5 @@ object nqueens {
     "\n" + (lines mkString "\n")
   }
 
-  (queens(4) map show) mkString "\n"
+  (queens(8) take 3 map show) mkString "\n"
 }

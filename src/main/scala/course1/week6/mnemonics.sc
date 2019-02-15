@@ -2,7 +2,7 @@ import scala.io.Source
 
 object mnemonics {
 
-  val in = Source.fromURL("http://lamp.epfl.ch/files/content/sites/lamp/files/teaching/progfun/linuxwords.txt")
+  val in = Source.fromURL("https://lamp.epfl.ch/wp-content/uploads/2019/01/linuxwords.txt")
 
   val words = in.getLines.toList filter (word => word forall (chr => chr.isLetter))
 
